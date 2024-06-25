@@ -23,15 +23,15 @@
       "program": "nu"
     },
     "font_family": "CaskaydiaCove Nerd Font"
-  }
+  },
 
-  // "lsp": {
-  //   "rust-analyzer": {
-  //     "initialization_options": {
-  //       "check": {
-  //         "command": "clippy" // rust-analyzer.check.command (default: "check")
-  //       }
-  //     }
-  //   }
-  // }
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "check": {
+          "command": "clippy" // rust-analyzer.check.command (default: "check")
+        }
+      }
+    }
+  }
 }

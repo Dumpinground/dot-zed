@@ -7,11 +7,16 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "theme": "Gruvbox Dark Soft",
+  "theme": "Atelier Estuary Light",
   "ui_font_size": 16,
   "buffer_font_size": 16,
   "buffer_font_features": {
     "calt": true
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 2000
+    }
   },
   "soft_wrap": "editor_width",
   "inlay_hints": {
@@ -23,7 +28,7 @@
       "program": "nu"
     },
     "font_family": "CaskaydiaCove Nerd Font"
-  },
+  }
 
   "lsp": {
     "rust-analyzer": {
